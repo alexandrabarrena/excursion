@@ -1,0 +1,38 @@
+
+h1,
+h2,
+a,
+p
+{
+  Font-family: Verdana;
+  Text-align: Center;
+}
+
+.background {
+  Background-color: Black;
+}
+
+h1{
+  Font-weight: 100;
+  Font-size: 50px;
+  Color: red;
+  text-align: Center;
+}
+
+a{
+  Font-size: 16px;
+  Color: aquamarine;
+}
+
+h2{
+  Font-weight: 300;
+  Font-size: 42px;
+}
+
+p{
+  Font-size: 21px;
+  Color: Gray;
+}
+#copyright{
+  Text-align: Right;
+}
