@@ -1,38 +1,66 @@
-
 h1,
 h2,
+p,
 a,
-p
-{
+body{
   Font-family: Verdana;
-  Text-align: Center;
-}
-
-.background {
-  Background-color: Black;
+  background-color: black;
 }
 
 h1{
   Font-weight: 100;
   Font-size: 50px;
-  Color: red;
-  text-align: Center;
+  Color: white;
+  text-align: center;
 }
 
-a{
-  Font-size: 16px;
-  Color: aquamarine;
-}
 
 h2{
   Font-weight: 300;
   Font-size: 42px;
+  Color: white;
+  text-align: center;
 }
 
-p{
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.link {
+  Font-size: 16px;
+  Color: aquamarine;
+  text-align: center;
+}
+
+
+a, a:visited, a:hover, a:active{
+  color:inherit;;
+}
+
+p {
   Font-size: 21px;
   Color: Gray;
+  text-align: center;
 }
-#copyright{
+
+#copyright {
   Text-align: Right;
+  Color: Gray;
+}
+#icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  margin-top: 30px;
 }
