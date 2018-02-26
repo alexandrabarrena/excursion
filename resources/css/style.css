@@ -1,3 +1,4 @@
+/** General Styles **/
 h1,
 h2,
 p,
@@ -14,7 +15,6 @@ h1{
   text-align: center;
 }
 
-
 h2{
   Font-weight: 300;
   Font-size: 42px;
@@ -22,6 +22,13 @@ h2{
   text-align: center;
 }
 
+p {
+  Font-size: 21px;
+  Color: Gray;
+  text-align: center;
+}
+
+/** Media Styles **/
 img {
     display: block;
     margin-left: auto;
@@ -36,23 +43,18 @@ video {
     width: 30%;
 }
 
+/** Link Style **/
 .link {
   Font-size: 16px;
   Color: aquamarine;
   text-align: center;
 }
 
-
 a, a:visited, a:hover, a:active{
   color:inherit;;
 }
 
-p {
-  Font-size: 21px;
-  Color: Gray;
-  text-align: center;
-}
-
+/** Specific Styles **/
 #copyright {
   Text-align: Right;
   Color: Gray;
